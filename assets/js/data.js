@@ -1,7 +1,7 @@
 // ─── CATÁLOGO DE VEHÍCULOS + CONFIGURACIÓN ───────────────────────────────────
 // Precios: Lista Almotores 2026. Actualizar según lista vigente.
 
-const WA_NUMBER = "573170000000"; // Actualizar con el número real de Nataly
+const WA_NUMBER = "573245729423"; // Actualizar con el número real de Nataly
 
 const WA_OPTIONS = [
   { icon:"🚗", label:"Cotizar un vehículo",               needsLead:true,  tipo:"cotizar" },
