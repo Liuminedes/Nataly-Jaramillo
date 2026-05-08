@@ -19,7 +19,7 @@ function renderCards(category) {
         '<div class="card-name">' + v.name + '</div>' +
         '<div class="card-desc">' + v.description + '</div>' +
         '<div class="card-footer-row">' +
-          '<div><div class="card-price-label">' + (isEV ? "Precio público desde" : "Precio lista desde") + '</div><div class="card-price">' + fpShort(price) + '</div></div>' +
+          '<div><div class="card-price">' + fpShort(price) + '</div></div>' +
           '<button class="card-cta">Ver ficha</button>' +
         '</div>' +
       '</div>' +
@@ -68,7 +68,7 @@ function openVehicleModal(idx) {
 
   // Note label
   var noteEl = document.getElementById("mTrimsNote");
-  if (noteEl) noteEl.textContent = isEV ? "Precio público sugerido" : "Precio lista sugerido";
+  if (noteEl) noteEl.textContent = '';
 
   // Right column: trim cards
   var trimsList = document.getElementById("mTrimsList");

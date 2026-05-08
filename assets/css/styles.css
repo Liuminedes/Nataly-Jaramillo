@@ -483,7 +483,6 @@
     .card-name { font-family: var(--font-display); font-size: 26px; color: var(--text); letter-spacing: 0.02em; margin-bottom: 8px; }
     .card-desc { font-size: 13px; color: var(--text3); line-height: 1.6; flex: 1; margin-bottom: 20px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
     .card-footer-row { display: flex; align-items: center; justify-content: space-between; padding-top: 16px; border-top: 1px solid var(--border); }
-    .card-price-label { font-size: 10px; color: var(--text3); letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 2px; }
     .card-price { font-family: var(--font-display); font-size: 22px; color: var(--accent); letter-spacing: 0.04em; }
     .card-cta {
       background: var(--glass2);
@@ -535,7 +534,7 @@
     }
     .advisor-kia-logo { height: 28px; filter: var(--logo-filter); opacity: 0.4; margin-bottom: 32px; }
     .advisor-avatar {
-      width: 160px; height: 160px;
+      width: 220px; height: 220px;
       border-radius: 50%;
       border: 2px solid var(--border2);
       overflow: hidden;
@@ -908,9 +907,7 @@
       gap: 16px;
       flex-wrap: wrap;
     }
-    .price-label { font-size: 10px; color: var(--text3); text-transform: uppercase; letter-spacing: 0.08em; font-family: var(--font-mono); margin-bottom: 2px; }
     .price-big { font-family: var(--font-display); font-size: 30px; color: var(--text); letter-spacing: 0.02em; line-height: 1; }
-    .price-note { font-size: 10px; color: var(--text3); margin-top: 3px; }
     .btn-wa {
       display: inline-flex; align-items: center; gap: 8px;
       background: #25d366;
